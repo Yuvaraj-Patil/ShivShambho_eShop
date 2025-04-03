@@ -1,21 +1,18 @@
-# eShop Reference Application - "AdventureWorks"
+# ShivShambho_eShop Reference Application - "spiritual e-commerce website"
 
-A reference .NET application implementing an e-commerce website using a services-based architecture using [.NET Aspire](https://learn.microsoft.com/dotnet/aspire/).
+A reference .NET application implementing an spiritual e-commerce website using a services-based architecture using [.NET Aspire](https://learn.microsoft.com/dotnet/aspire/).
 
-![eShop Reference Application architecture diagram](img/eshop_architecture.png)
+![ShivShambho_eShop Reference Application architecture diagram](img/eshop_architecture.png)
 
-![eShop homepage screenshot](img/eshop_homepage.png)
+![ShivShambho_eShop homepage screenshot](img/eshop_homepage.png)
 
 ## Getting Started
 
-This version of eShop is based on .NET 9. 
+This version of ShivShambho_eShop is based on .NET 9. 
 
-Previous eShop versions:
-* [.NET 8](https://github.com/dotnet/eShop/tree/release/8.0)
+## Prerequisites
 
-### Prerequisites
-
-- Clone the eShop repository: https://github.com/dotnet/eshop
+- Clone the ShivShambho_eShop repository: https://github.com/Yuvaraj-Patil/ShivShambho_eShop.git
 - [Install & start Docker Desktop](https://docs.docker.com/engine/install/)
 
 #### Windows with Visual Studio
@@ -26,25 +23,6 @@ Previous eShop versions:
     - Optional: `.NET Multi-platform App UI development` to run client apps
 
 Or
-
-- Run the following commands in a Powershell & Terminal running as `Administrator` to automatically configure your environment with the required tools to build and run this application. (Note: A restart is required and included in the script below.)
-
-```powershell
-install-Module -Name Microsoft.WinGet.Configuration -AllowPrerelease -AcceptLicense -Force
-$env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
-get-WinGetConfiguration -file .\.configurations\vside.dsc.yaml | Invoke-WinGetConfiguration -AcceptConfigurationAgreements
-```
-
-Or
-
-- From Dev Home go to `Machine Configuration -> Clone repositories`. Enter the URL for this repository. In the confirmation screen look for the section `Configuration File Detected` and click `Run File`.
-
-#### Mac, Linux, & Windows without Visual Studio
-- Install the latest [.NET 9 SDK](https://dot.net/download?cid=eshop)
-
-Or
-
-- Run the following commands in a Powershell & Terminal running as `Administrator` to automatically configuration your environment with the required tools to build and run this application. (Note: A restart is required after running the script below.)
 
 ##### Install Visual Studio Code and related extensions
 ```powershell
@@ -66,8 +44,8 @@ get-WinGetConfiguration -file .\.configurations\vscode.dsc.yaml | Invoke-WinGetC
 > Remember to ensure that Docker is started
 
 * (Windows only) Run the application from Visual Studio:
- - Open the `eShop.Web.slnf` file in Visual Studio
- - Ensure that `eShop.AppHost.csproj` is your startup project
+ - Open the `ShivShambho_eShop.Web.slnf` file in Visual Studio
+ - Ensure that `ShivShambho_eShop.AppHost.csproj` is your startup project
  - Hit Ctrl-F5 to launch Aspire
 
 * Or run the application from your terminal:
@@ -135,8 +113,4 @@ For more information on contributing to this repo, read [the contribution docume
 
 ### Sample data
 
-The sample catalog data is defined in [catalog.json](https://github.com/dotnet/eShop/blob/main/src/Catalog.API/Setup/catalog.json). Those product names, descriptions, and brand names are fictional and were generated using [GPT-35-Turbo](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/chatgpt), and the corresponding [product images](https://github.com/dotnet/eShop/tree/main/src/Catalog.API/Pics) were generated using [DALL·E 3](https://openai.com/dall-e-3).
-
-## eShop on Azure
-
-For a version of this app configured for deployment on Azure, please view [the eShop on Azure](https://github.com/Azure-Samples/eShopOnAzure) repo.
+The sample catalog data is defined in [catalog.json](https://github.com/Yuvaraj-Patil/ShivShambho_eShop/blob/main/src/Catalog.API/Setup/catalog.json). Those product names, descriptions, and brand names are fictional and were generated using [GPT-35-Turbo](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/chatgpt), and the corresponding [product images](https://github.com/Yuvaraj-Patil/ShivShambho_eShop/tree/main/src/Catalog.API/Pics) were generated using [DALL·E 3](https://openai.com/dall-e-3).
