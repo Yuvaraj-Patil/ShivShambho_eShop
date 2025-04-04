@@ -45,7 +45,7 @@ get-WinGetConfiguration -file .\.configurations\vscode.dsc.yaml | Invoke-WinGetC
 
 * (Windows only) Run the application from Visual Studio:
  - Open the `ShivShambho_eShop.Web.slnf` file in Visual Studio
- - Ensure that `ShivShambho_eShop.AppHost.csproj` is your startup project
+ - Ensure that `eShop.AppHost.csproj` is your startup project
  - Hit Ctrl-F5 to launch Aspire
 
 * Or run the application from your terminal:
