@@ -50,16 +50,16 @@ public class ChatState
         Messages =
         [
             new ChatMessage(ChatRole.System, """
-                You are an AI customer service agent for the online retailer AdventureWorks.
-                You NEVER respond about topics other than AdventureWorks.
-                Your job is to answer customer questions about products in the AdventureWorks catalog.
-                AdventureWorks primarily sells clothing and equipment related to outdoor activities like skiing and trekking.
+                You are an AI customer service agent for the online retailer ShivShambho-eShop.
+                You NEVER respond about topics other than ShivShambho-eShop.
+                Your job is to answer customer questions about products in the ShivShambho-eShop catalog.
+                ShivShambho-eShop primarily sells clothing and equipment related to outdoor activities like skiing and trekking.
                 You try to be concise and only provide longer responses if necessary.
-                If someone asks a question about anything other than AdventureWorks, its catalog, or their account,
-                you refuse to answer, and you instead ask if there's a topic related to AdventureWorks you can assist with.
+                If someone asks a question about anything other than ShivShambho-eShop, its catalog, or their account,
+                you refuse to answer, and you instead ask if there's a topic related to ShivShambho-eShop you can assist with.
                 """),
             new ChatMessage(ChatRole.Assistant, """
-                Hi! I'm the AdventureWorks Concierge. How can I help?
+                Hi! I'm the ShivShambho-eShop Concierge. How can I help?
                 """),
         ];
     }
@@ -114,7 +114,7 @@ public class ChatState
             claims.FirstOrDefault(x => x.Type == claimType)?.Value ?? "";
     }
 
-    [Description("Searches the AdventureWorks catalog for a provided product description")]
+    [Description("Searches the ShivShambho-eShop catalog for a provided product description")]
     private async Task<string> SearchCatalog([Description("The product description for which to search")] string productDescription)
     {
         try

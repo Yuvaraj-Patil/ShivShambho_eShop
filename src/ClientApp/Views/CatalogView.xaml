@@ -86,11 +86,11 @@
                         Grid.Row="1"
                         FontAttributes="Bold"
                         FontSize="{StaticResource ExtraBigSize}"
-                        Text="Ready for a new adventure?" />
+                        Text="Where soulful choices meet divine purpose." />
                     <Label
                         Grid.Row="2"
                         FontSize="{StaticResource MediumSize}"
-                        Text="Start the season with the latest in clothing and equipment." />
+                        Text="Celebrate the divine in you with thoughtful attire and spiritual essentials." />
                 </Grid>
             </CollectionView.Header>
             <CollectionView.EmptyView>
