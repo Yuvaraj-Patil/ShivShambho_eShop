@@ -8,7 +8,7 @@
     <AspireVersion>9.1.0</AspireVersion>
     <AspireUnstablePackagesVersion>9.1.0-preview.1.25121.10</AspireUnstablePackagesVersion>
     <GrpcVersion>2.67.0</GrpcVersion>
-    <DuendeVersion>7.1.1</DuendeVersion>
+    <DuendeVersion>7.2.4</DuendeVersion>
     <ApiVersioningVersion>8.1.0</ApiVersioningVersion>
   </PropertyGroup>
   <ItemGroup>
@@ -103,6 +103,6 @@
     <PackageVersion Include="xunit.runner.visualstudio" Version="3.0.2" />
     <PackageVersion Include="Yarp.ReverseProxy" Version="2.3.0" />
     <PackageVersion Include="IdentityModel" Version="7.0.0" />
-    <PackageVersion Include="Scalar.AspNetCore" Version="2.0.26"/>
+    <PackageVersion Include="Scalar.AspNetCore" Version="2.0.26" />
   </ItemGroup>
 </Project>
